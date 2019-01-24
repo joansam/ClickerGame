@@ -14,6 +14,6 @@ public class MainScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        MoneyText.text = "Money = " + currentMoney;
+        MoneyText.text = "Money = $" + currentMoney;
 	}
 }
